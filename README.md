@@ -3,7 +3,7 @@ A simple script to update composer.json for a Drupal project to have exact versi
 
 ## Usage
 
-1. Simply run: ```php composer-drupal-exact.php``` from the root of your project, where composer.json lives.
+1. Simply run: ```php drupal-composer-exact.php``` from the root of your project, where composer.json lives.
 2. You should then have a file called composer.json.exact in your project root
 3. Backup your existing composer.json: ```cp composer.json composer.json.back```
 4. Rename composer.json.exact to composer.json: ```mv composer.json.exact composer.json```
