@@ -93,5 +93,3 @@ file_put_contents(
     $composer_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES
   )
 );
-
-?>
